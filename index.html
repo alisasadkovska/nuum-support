@@ -1,8 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NUUM Support</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
@@ -10,51 +11,239 @@
             margin: 50px auto;
             padding: 20px;
             line-height: 1.6;
+            color: #333;
         }
-        h1 { color: #333; }
-        h2 { color: #666; margin-top: 30px; }
+        h1 { 
+            color: #222;
+            border-bottom: 3px solid #007AFF;
+            padding-bottom: 10px;
+        }
+        h2 { 
+            color: #444; 
+            margin-top: 30px;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 5px;
+        }
+        h3 { 
+            color: #666;
+            margin-top: 20px;
+        }
         .contact { 
             background: #f5f5f5; 
             padding: 20px; 
             border-radius: 10px;
             margin: 20px 0;
         }
+        .faq-item {
+            margin: 20px 0;
+            padding: 15px;
+            background: #fafafa;
+            border-left: 4px solid #007AFF;
+            border-radius: 5px;
+        }
+        .faq-question {
+            font-weight: 600;
+            color: #222;
+            margin-bottom: 10px;
+        }
+        .faq-answer {
+            color: #555;
+        }
+        .step {
+            margin: 10px 0;
+            padding-left: 10px;
+        }
+        a {
+            color: #007AFF;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .footer-links {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #ddd;
+        }
+        .footer-links a {
+            margin: 0 15px;
+            color: #666;
+        }
     </style>
 </head>
 <body>
     <h1>NUUM Support</h1>
-    <p>Welcome to NUUM support! We're here to help.</p>
+    <p>Welcome to NUUM! We're here to help you get the most out of your AI fashion stylist.</p>
     
-    <h2>Contact Us</h2>
     <div class="contact">
-        <p><strong>Email:</strong> alisasadkovska@gmail.com</p>
+        <h2>Contact Us</h2>
+        <p><strong>Email:</strong> <a href="mailto:support@nuum.app">alisasadkovska@gmail.com</a></p>
         <p><strong>Response time:</strong> Within 24-48 hours</p>
     </div>
     
-    <h2>Frequently Asked Questions</h2>
+    <h2>Getting Started</h2>
     
-    <h3>How do I analyze an outfit?</h3>
-    <p>1. Tap "Pick Photo" or "Take Photo"<br>
-    2. Select your outfit photo<br>
-    3. Tap "Analyze"<br>
-    4. View your results!</p>
-    
-    <h3>How many free analyses do I get?</h3>
-    <p>You get 3 free outfit analyses every day. For unlimited analyses, upgrade to NUUM Pro.</p>
-    
-    <h3>How do I upgrade to Pro?</h3>
-    <p>Tap the Pro badge in the Account tab to see subscription options.</p>
-    
-    <h3>How do I restore my purchases?</h3>
-    <p>Go to the subscription screen and tap "Restore Purchases".</p>
-    
-    <h3>Can I delete my data?</h3>
-    <p>Yes! Go to Settings and tap "Delete Account" to remove all your data.</p>
-    
-    <h2>Privacy & Terms</h2>
-    <p><a href="#privacy">Privacy Policy</a> | <a href="#terms">Terms of Service</a></p>
-    
+    <div class="faq-item">
+        <div class="faq-question">How do I analyze an outfit?</div>
+        <div class="faq-answer">
+            <div class="step">1. Tap "Pick Photo" to select from your library, or "Take Photo" to use your camera</div>
+            <div class="step">2. Select or capture a photo of your outfit</div>
+            <div class="step">3. Tap the "Analyze" button</div>
+            <div class="step">4. Wait a few seconds for AI analysis</div>
+            <div class="step">5. View your results with rating, pros, cons, and styling tips!</div>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How many free analyses do I get?</div>
+        <div class="faq-answer">
+            You get 3 free outfit analyses every day. The counter resets at midnight in your timezone. For unlimited analyses, upgrade to NUUM Pro!
+        </div>
+    </div>
+
+    <h2>Account & Subscriptions</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">Do I need an account?</div>
+        <div class="faq-answer">
+            No! You can use NUUM without creating an account (guest mode). However, creating an account lets you sync your outfit history across devices.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How do I upgrade to NUUM Pro?</div>
+        <div class="faq-answer">
+            <div class="step">1. Tap the Pro badge in the Account tab</div>
+            <div class="step">2. Choose Monthly or Yearly subscription</div>
+            <div class="step">3. Complete purchase through App Store</div>
+            <div class="step">4. Enjoy unlimited outfit analyses!</div>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How do I restore my purchases?</div>
+        <div class="faq-answer">
+            If you purchased NUUM Pro on another device:
+            <div class="step">1. Open the subscription screen</div>
+            <div class="step">2. Tap "Restore Purchases"</div>
+            <div class="step">3. Wait a few seconds</div>
+            <div class="step">4. Your Pro access will be restored!</div>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How do I cancel my subscription?</div>
+        <div class="faq-answer">
+            <div class="step">1. Open iOS Settings</div>
+            <div class="step">2. Tap your name at the top</div>
+            <div class="step">3. Tap "Subscriptions"</div>
+            <div class="step">4. Find NUUM and tap it</div>
+            <div class="step">5. Tap "Cancel Subscription"</div>
+            <p style="margin-top: 10px;"><em>Note: You'll keep Pro access until the end of your billing period.</em></p>
+        </div>
+    </div>
+
+    <h2>Features & Usage</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">What languages does NUUM support?</div>
+        <div class="faq-answer">
+            NUUM is available in English, Ukrainian, and French. Change language in iOS Settings → NUUM.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Can I delete my outfit history?</div>
+        <div class="faq-answer">
+            Yes! In the Account tab, swipe left on any analysis to delete it. You can also delete your entire account in Settings.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Is my data private?</div>
+        <div class="faq-answer">
+            Yes! Your photos are processed securely. If you don't create an account, everything stays on your device. With an account, data is encrypted and stored securely. See our <a href="privacy.html">Privacy Policy</a> for details.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">How accurate is the AI analysis?</div>
+        <div class="faq-answer">
+            NUUM uses advanced AI (GPT-4 Vision) to analyze outfits based on color theory, fit, style coherence, and fashion principles. While very accurate, remember that fashion is subjective - use the advice as helpful guidance!
+        </div>
+    </div>
+
+    <h2>Troubleshooting</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">The app isn't responding / is slow</div>
+        <div class="faq-answer">
+            Try these steps:
+            <div class="step">1. Close and reopen the app</div>
+            <div class="step">2. Check your internet connection</div>
+            <div class="step">3. Restart your device</div>
+            <div class="step">4. Update to the latest version from App Store</div>
+            <div class="step">5. If problem persists, contact support</div>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Analysis is stuck at "Analyzing..."</div>
+        <div class="faq-answer">
+            This usually means poor internet connection. Check your WiFi or cellular data and try again. If it continues, contact support.
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">I can't restore my Pro subscription</div>
+        <div class="faq-answer">
+            Make sure:
+            <div class="step">• You're signed in with the same Apple ID used to purchase</div>
+            <div class="step">• Your subscription is still active (check Settings → Subscriptions)</div>
+            <div class="step">• You have internet connection</div>
+            <div class="step">• Try tapping "Restore Purchases" again</div>
+            <p style="margin-top: 10px;">Still not working? Email us at <a href="mailto:support@nuum.app">support@nuum.app</a></p>
+        </div>
+    </div>
+
+    <h2>Privacy & Data</h2>
+
+    <div class="faq-item">
+        <div class="faq-question">How do I delete my account?</div>
+        <div class="faq-answer">
+            <div class="step">1. Open NUUM</div>
+            <div class="step">2. Go to Settings tab</div>
+            <div class="step">3. Scroll to bottom</div>
+            <div class="step">4. Tap "Delete Account"</div>
+            <div class="step">5. Confirm deletion</div>
+            <p style="margin-top: 10px;"><em>Warning: This permanently deletes all your data and cannot be undone.</em></p>
+        </div>
+    </div>
+
+    <div class="faq-item">
+        <div class="faq-question">Can I export my data?</div>
+        <div class="faq-answer">
+            Yes! Email us at <a href="mailto:support@nuum.app">support@nuum.app</a> with your account email, and we'll send you an export of your data within 48 hours.
+        </div>
+    </div>
+
     <h2>Still Need Help?</h2>
-    <p>Email us at <a href="mailto:support@youremail.com">support@youremail.com</a></p>
+    
+    <div class="contact">
+        <p>Can't find what you're looking for? We're here to help!</p>
+        <p><strong>Email:</strong> <a href="mailto:alisasadkovska@gmail.com">support@nuum.app</a></p>
+        <p><strong>Response time:</strong> Within 24-48 hours</p>
+        <p>Include your device model and iOS version for faster assistance.</p>
+    </div>
+
+    <div class="footer-links">
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Service</a>
+    </div>
+
+    <p style="text-align: center; color: #999; font-size: 12px; margin-top: 20px;">
+        © 2026 NUUM. All rights reserved.
+    </p>
 </body>
 </html>
